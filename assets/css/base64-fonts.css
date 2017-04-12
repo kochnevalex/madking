@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /**
  * Colors #colors
  */
@@ -69,8 +68,8 @@
  */
 @font-face {
   font-family: "Calibri";
-  src: url("../fonts/CalibriÊlibri.eot");
-  src: url("../fonts/CalibriÊlibri.eot?#iefix") format("eot"), url("../fonts/CalibriÊlibri.woff") format("woff");
+  src: url("../fonts/Calibri/Calibri.eot");
+  src: url("../fonts/Calibri/Calibri.eot?#iefix") format("eot"), url("../fonts/Calibri/Calibri.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
