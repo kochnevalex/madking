@@ -1,0 +1,105 @@
+.btn
+  position: relative
+  display: inline-block
+  height: 75px
+  margin: 10px 0
+  cursor: pointer
+  border: none
+  vertical-align: middle
+  text-decoration: none
+  font-family: $calibri
+  outline: none
+
+.btn-wrap
+  text-align: center
+
+.btn.btn--red.active
+  position: relative
+  &::before
+    content: ''
+    display: block
+    @include sprite($btn-red)
+
+.btn.btn--red
+  position: relative
+  &::before
+    content: ''
+    display: block
+    @include sprite($btn-red-inactive)
+
+.btn.btn--blue.active
+  position: relative
+  &::before
+    content: ''
+    display: block
+    @include sprite($btn-blue)
+
+.btn.btn--blue
+  position: relative
+  &::before
+    content: ''
+    display: block
+    @include sprite($btn-blue-inactive)
+
+.btn.btn--form
+  position: relative
+  @include sprite($form-btn-inactive)
+  &:hover
+    @include sprite($form-btn)
+
+.btn.btn--social
+  height: 35px
+  width: 35px
+  border-radius: 50%
+  border: 1px solid $white-color
+
+.btn.btn--social::after
+  display: block
+  content: ''
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translateX(-50%) translatey(-50%)
+
+.ok:hover
+  background: $white-color
+  &::after
+    @include sprite($ok-hover)
+
+.ok::after
+  @include sprite($ok)
+
+.vk:hover
+  background: $white-color
+  &::after
+    @include sprite($vk-hover)
+
+.vk::after
+  @include sprite($vk)
+
+//animation
+@keyframes slidedown
+  0%
+    opacity: 1
+  50%
+    opacity: .2
+  100%
+    opacity: 1
+
+@keyframes ribble
+  20%
+    transform: rotate3d(0, 0, 1, 15deg)
+
+  40%
+    transform: rotate3d(0, 0, 1, -10deg)
+
+  60%
+    transform: rotate3d(0, 0, 1, 5deg)
+
+  80%
+    transform: rotate3d(0, 0, 1, -5deg)
+
+  100%
+    transform: rotate3d(0, 0, 1, 0deg)
+
+

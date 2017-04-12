@@ -1,0 +1,28 @@
+- var pageTitle = "MadKing";
+
+doctype html
+html(lang='ru')
+    include components/head/head
+
+    body
+
+        .wrap
+            .bg-main.bg-image(data-bgimage='images/bg.jpg')
+            .bg.bg-right.bg-image(data-bgimage='images/bg-right.jpg')
+            .bg.bg-left.bg-image(data-bgimage='images/bg-left.jpg')
+            .main
+                .logo
+                .main__text
+                .btn-wrap
+                    a.btn.btn--red.btn--popup.active(href='#formWrap')
+                    br
+                    a.btn.btn--blue.btn--popup.active(href='#formWrap')
+
+            .container
+                include components/forms/formSend
+
+
+        include components/footer/footer
+        include components/scripts/scripts
+
+

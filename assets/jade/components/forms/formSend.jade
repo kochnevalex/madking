@@ -1,0 +1,24 @@
+#formWrap.form-wrap
+    h2.form-ttl Регистрация
+    form#form(method='POST', action='#')
+        .form-group
+            input.form-control(type='text', required='', name='nick',placeholder='Никнейм')
+            label.ico.nick
+        .form-group
+            input.form-control(type='email', required='', name='email', placeholder='Почта'  )
+            label.ico.mail
+        .form-group
+            input.form-control(type='password', required='', name='pass',placeholder='Пароль' )
+            label.ico.pass
+        p.agree Нажимая кнопку „Играть“ вы принимаете условия #[a(href='#') Пользовательского соглашения]
+        p.enter Уже зарегистрированы?  #[a(href='#') Войти]
+        button.btn.btn--form
+    .social
+        p ИЛИ ВОЙДИТЕ ИСПОЛЬЗУЯ
+        ul
+            li
+                a.btn.btn--social.vk(href='#')
+            li
+                a.btn.btn--social.ok(href='#')
+
+

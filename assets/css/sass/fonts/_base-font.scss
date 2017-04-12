@@ -1,0 +1,8 @@
+@font-face {
+  font-family: $calibri;
+  src: url($font-src + 'Calibri\Calibri.eot');
+  src: url($font-src + 'Calibri\Calibri.eot?#iefix') format('eot'),
+  url($font-src +  'Calibri\Calibri.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,109 @@
+/* form starting stylings ------------------------------- */
+
+.form-wrap
+  display: none
+  position: relative
+  padding: 20px 65px 20px 60px
+  text-align: center
+  @include sprite($form-border)
+
+.form-wrap::before
+  z-index: -1
+  background: $black-color
+  opacity: .8
+  content: ''
+  position: absolute
+  top: 10px
+  left: 10px
+  bottom: 10px
+  right: 10px
+
+.form-ttl
+  color: $main-color
+  text-transform: uppercase
+  font-size: 30px
+  line-height: 34px
+
+  margin-bottom: 10px
+  padding: 8px 0
+  text-shadow: 0 0 20px rgba(14, 92, 234, 0.5), 0 0 20px rgba(14, 92, 234, 0.5), 0 0 25px rgba(14, 92, 234, 0.5)
+
+.form-group
+  position: relative
+  margin-bottom: 25px
+
+.form-group .ico
+  position: absolute
+  left: 0
+  top: 0
+  bottom: 0
+  width: 50px
+  &::after
+    position: absolute
+    display: block
+    content: ''
+    top: 50%
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+
+.form-control
+  width: 100%
+  font-size: 17px
+  padding: 10px 20px 11px 50px
+  display: block
+  color: $white-color
+  text-align: left
+  box-shadow: none
+  border: 1px solid $blue-color
+  @include placeholder()
+    opacity: 1
+    color: $white-color
+
+.form-control:focus
+  @include placeholder()
+    opacity: 0
+
+label.error
+  position: absolute
+  top: 100%
+  right: 0
+  margin-top: 3px
+  font-size: 14px
+  line-height: 14px
+  color: $error-color
+
+.agree
+  padding-top: 5px
+  margin-bottom: 15px
+  font-size: 14px
+  line-height: 18px
+  color: $white-color
+  opacity: .2
+
+.agree a
+  color: $white-color
+  text-decoration: underline
+  &:hover
+    text-decoration: none
+
+.enter
+  margin: 5px 0
+  font-size: 17px
+  line-height: 20px
+  color: $main-color
+  font-family: $calibri-bold
+
+.enter a
+  color: $gold-color
+  border-bottom: 2px solid $gold-color
+  &:hover
+    border: none
+
+.nick::after
+  @include sprite($man)
+
+.mail::after
+  @include sprite($mail)
+
+.pass::after
+  @include sprite($lock)

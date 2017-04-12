@@ -1,0 +1,277 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$btn-blue-inactive-name: 'btn-blue-inactive';
+$btn-blue-inactive-x: 356px;
+$btn-blue-inactive-y: 527px;
+$btn-blue-inactive-offset-x: -356px;
+$btn-blue-inactive-offset-y: -527px;
+$btn-blue-inactive-width: 273px;
+$btn-blue-inactive-height: 66px;
+$btn-blue-inactive-total-width: 772px;
+$btn-blue-inactive-total-height: 726px;
+$btn-blue-inactive-image: '../images/sprite.png';
+$btn-blue-inactive: (356px, 527px, -356px, -527px, 273px, 66px, 772px, 726px, '../images/sprite.png', 'btn-blue-inactive', );
+$btn-blue-name: 'btn-blue';
+$btn-blue-x: 465px;
+$btn-blue-y: 235px;
+$btn-blue-offset-x: -465px;
+$btn-blue-offset-y: -235px;
+$btn-blue-width: 303px;
+$btn-blue-height: 73px;
+$btn-blue-total-width: 772px;
+$btn-blue-total-height: 726px;
+$btn-blue-image: '../images/sprite.png';
+$btn-blue: (465px, 235px, -465px, -235px, 303px, 73px, 772px, 726px, '../images/sprite.png', 'btn-blue', );
+$btn-red-inactive-name: 'btn-red-inactive';
+$btn-red-inactive-x: 0px;
+$btn-red-inactive-y: 661px;
+$btn-red-inactive-offset-x: 0px;
+$btn-red-inactive-offset-y: -661px;
+$btn-red-inactive-width: 272px;
+$btn-red-inactive-height: 65px;
+$btn-red-inactive-total-width: 772px;
+$btn-red-inactive-total-height: 726px;
+$btn-red-inactive-image: '../images/sprite.png';
+$btn-red-inactive: (0px, 661px, 0px, -661px, 272px, 65px, 772px, 726px, '../images/sprite.png', 'btn-red-inactive', );
+$btn-red-name: 'btn-red';
+$btn-red-x: 465px;
+$btn-red-y: 158px;
+$btn-red-offset-x: -465px;
+$btn-red-offset-y: -158px;
+$btn-red-width: 303px;
+$btn-red-height: 73px;
+$btn-red-total-width: 772px;
+$btn-red-total-height: 726px;
+$btn-red-image: '../images/sprite.png';
+$btn-red: (465px, 158px, -465px, -158px, 303px, 73px, 772px, 726px, '../images/sprite.png', 'btn-red', );
+$down-name: 'down';
+$down-x: 520px;
+$down-y: 493px;
+$down-offset-x: -520px;
+$down-offset-y: -493px;
+$down-width: 15px;
+$down-height: 17px;
+$down-total-width: 772px;
+$down-total-height: 726px;
+$down-image: '../images/sprite.png';
+$down: (520px, 493px, -520px, -493px, 15px, 17px, 772px, 726px, '../images/sprite.png', 'down', );
+$form-border-name: 'form-border';
+$form-border-x: 0px;
+$form-border-y: 0px;
+$form-border-offset-x: 0px;
+$form-border-offset-y: 0px;
+$form-border-width: 461px;
+$form-border-height: 523px;
+$form-border-total-width: 772px;
+$form-border-total-height: 726px;
+$form-border-image: '../images/sprite.png';
+$form-border: (0px, 0px, 0px, 0px, 461px, 523px, 772px, 726px, '../images/sprite.png', 'form-border', );
+$form-btn-inactive-name: 'form-btn-inactive';
+$form-btn-inactive-x: 465px;
+$form-btn-inactive-y: 312px;
+$form-btn-inactive-offset-x: -465px;
+$form-btn-inactive-offset-y: -312px;
+$form-btn-inactive-width: 303px;
+$form-btn-inactive-height: 73px;
+$form-btn-inactive-total-width: 772px;
+$form-btn-inactive-total-height: 726px;
+$form-btn-inactive-image: '../images/sprite.png';
+$form-btn-inactive: (465px, 312px, -465px, -312px, 303px, 73px, 772px, 726px, '../images/sprite.png', 'form-btn-inactive', );
+$form-btn-name: 'form-btn';
+$form-btn-x: 465px;
+$form-btn-y: 389px;
+$form-btn-offset-x: -465px;
+$form-btn-offset-y: -389px;
+$form-btn-width: 303px;
+$form-btn-height: 73px;
+$form-btn-total-width: 772px;
+$form-btn-total-height: 726px;
+$form-btn-image: '../images/sprite.png';
+$form-btn: (465px, 389px, -465px, -389px, 303px, 73px, 772px, 726px, '../images/sprite.png', 'form-btn', );
+$lock-name: 'lock';
+$lock-x: 501px;
+$lock-y: 493px;
+$lock-offset-x: -501px;
+$lock-offset-y: -493px;
+$lock-width: 15px;
+$lock-height: 19px;
+$lock-total-width: 772px;
+$lock-total-height: 726px;
+$lock-image: '../images/sprite.png';
+$lock: (501px, 493px, -501px, -493px, 15px, 19px, 772px, 726px, '../images/sprite.png', 'lock', );
+$logo-name: 'logo';
+$logo-x: 465px;
+$logo-y: 0px;
+$logo-offset-x: -465px;
+$logo-offset-y: 0px;
+$logo-width: 307px;
+$logo-height: 154px;
+$logo-total-width: 772px;
+$logo-total-height: 726px;
+$logo-image: '../images/sprite.png';
+$logo: (465px, 0px, -465px, 0px, 307px, 154px, 772px, 726px, '../images/sprite.png', 'logo', );
+$mail-name: 'mail';
+$mail-x: 547px;
+$mail-y: 466px;
+$mail-offset-x: -547px;
+$mail-offset-y: -466px;
+$mail-width: 19px;
+$mail-height: 12px;
+$mail-total-width: 772px;
+$mail-total-height: 726px;
+$mail-image: '../images/sprite.png';
+$mail: (547px, 466px, -547px, -466px, 19px, 12px, 772px, 726px, '../images/sprite.png', 'mail', );
+$main-text-name: 'main-text';
+$main-text-x: 0px;
+$main-text-y: 527px;
+$main-text-offset-x: 0px;
+$main-text-offset-y: -527px;
+$main-text-width: 352px;
+$main-text-height: 130px;
+$main-text-total-width: 772px;
+$main-text-total-height: 726px;
+$main-text-image: '../images/sprite.png';
+$main-text: (0px, 527px, 0px, -527px, 352px, 130px, 772px, 726px, '../images/sprite.png', 'main-text', );
+$man-name: 'man';
+$man-x: 633px;
+$man-y: 527px;
+$man-offset-x: -633px;
+$man-offset-y: -527px;
+$man-width: 14px;
+$man-height: 18px;
+$man-total-width: 772px;
+$man-total-height: 726px;
+$man-image: '../images/sprite.png';
+$man: (633px, 527px, -633px, -527px, 14px, 18px, 772px, 726px, '../images/sprite.png', 'man', );
+$ok-hover-name: 'ok-hover';
+$ok-hover-x: 465px;
+$ok-hover-y: 493px;
+$ok-hover-offset-x: -465px;
+$ok-hover-offset-y: -493px;
+$ok-hover-width: 14px;
+$ok-hover-height: 24px;
+$ok-hover-total-width: 772px;
+$ok-hover-total-height: 726px;
+$ok-hover-image: '../images/sprite.png';
+$ok-hover: (465px, 493px, -465px, -493px, 14px, 24px, 772px, 726px, '../images/sprite.png', 'ok-hover', );
+$ok-name: 'ok';
+$ok-x: 483px;
+$ok-y: 493px;
+$ok-offset-x: -483px;
+$ok-offset-y: -493px;
+$ok-width: 14px;
+$ok-height: 24px;
+$ok-total-width: 772px;
+$ok-total-height: 726px;
+$ok-image: '../images/sprite.png';
+$ok: (483px, 493px, -483px, -493px, 14px, 24px, 772px, 726px, '../images/sprite.png', 'ok', );
+$phone-name: 'phone';
+$phone-x: 465px;
+$phone-y: 466px;
+$phone-offset-x: -465px;
+$phone-offset-y: -466px;
+$phone-width: 24px;
+$phone-height: 23px;
+$phone-total-width: 772px;
+$phone-total-height: 726px;
+$phone-image: '../images/sprite.png';
+$phone: (465px, 466px, -465px, -466px, 24px, 23px, 772px, 726px, '../images/sprite.png', 'phone', );
+$vk-hover-name: 'vk-hover';
+$vk-hover-x: 493px;
+$vk-hover-y: 466px;
+$vk-hover-offset-x: -493px;
+$vk-hover-offset-y: -466px;
+$vk-hover-width: 23px;
+$vk-hover-height: 13px;
+$vk-hover-total-width: 772px;
+$vk-hover-total-height: 726px;
+$vk-hover-image: '../images/sprite.png';
+$vk-hover: (493px, 466px, -493px, -466px, 23px, 13px, 772px, 726px, '../images/sprite.png', 'vk-hover', );
+$vk-name: 'vk';
+$vk-x: 520px;
+$vk-y: 466px;
+$vk-offset-x: -520px;
+$vk-offset-y: -466px;
+$vk-width: 23px;
+$vk-height: 13px;
+$vk-total-width: 772px;
+$vk-total-height: 726px;
+$vk-image: '../images/sprite.png';
+$vk: (520px, 466px, -520px, -466px, 23px, 13px, 772px, 726px, '../images/sprite.png', 'vk', );
+$spritesheet-width: 772px;
+$spritesheet-height: 726px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($btn-blue-inactive, $btn-blue, $btn-red-inactive, $btn-red, $down, $form-border, $form-btn-inactive, $form-btn, $lock, $logo, $mail, $main-text, $man, $ok-hover, $ok, $phone, $vk-hover, $vk, );
+$spritesheet: (772px, 726px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

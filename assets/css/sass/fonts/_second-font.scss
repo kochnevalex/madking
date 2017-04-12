@@ -1,0 +1,8 @@
+@font-face {
+  font-family: $alterna;
+  src: url($font-src + 'AAlterna/AAlterna.eot');
+  src: url($font-src + 'AAlterna/AAlterna.eot?#iefix') format('eot'),
+  url($font-src +  'AAlterna/AAlterna.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
