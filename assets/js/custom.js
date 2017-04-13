@@ -42,7 +42,13 @@ $(document).ready(function () {
             showCloseBtn: false,
             type: 'inline',
             padding: 0,
-            midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+            midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+            removalDelay: 500, //delay removal by X to allow out-animation
+            callbacks: {
+                beforeOpen: function () {
+                    this.st.mainClass = this.st.el.attr('data-effect');
+                }
+            }
         });
     };
 
