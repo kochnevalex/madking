@@ -254,12 +254,12 @@ $(document).ready(function () {
 
             smokeParticle.prototype.init = function init() {
                 this.particlesQuantity = 300;
-                this.velocity = 0.25;
+                this.velocity = 0.8;
                 this.maxRadius = 2;
 
                 this.imgQuantity = 150;
                 this.maxSize = 600;
-                this.imgVelocity = 0.05;
+                this.imgVelocity = 0.5;
                 this.smokeOne = new Image();
                 this.smokeTwo = new Image();
                 this.smokeOne.src = 'https://raw.githubusercontent.com/RegisBiron/smokeParticles/master/smoke.png';
